@@ -1,3 +1,204 @@
 body {
-  
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px;
+}
+
+#mainbod {
+  width: 100%;
+}
+
+#main {
+  background-image: url('images/jungle.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 610px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+h1 {
+  color: #ff99c3;
+  font-family: 'Miniver', cursive;
+  font-size: 100px;
+  text-shadow: 3px 3px #282828;
+  padding-top: 40px;
+  padding-left: 160px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Miniver', cursive;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.planttext {
+  display: inline-table;
+  width: 200px;
+  height: 370px;
+  margin: 20px 100px 20px 100px;
+}
+
+.trucktext {
+  display: inline-table;
+  width: 200px;
+  height: 370px;
+  margin: 20px 100px 20px 100px;
+}
+
+.housetext {
+  display: inline-table;
+  width: 200px;
+  height: 370px;
+  margin: 20px 100px 20px 100px;
+}
+
+.icons{
+  text-align: center;
+}
+
+#plant {
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+#truck {
+  width: 213px;
+  padding-bottom: 20px;
+}
+
+#house {
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+.writing {
+  display: inline;
+  font-size: 30px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.learn {
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Miniver', cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#monstera {
+  display: inline;
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 45px;
+  border: 5px solid #ff99c3;
+}
+
+#info {
+  display: inline-block;
+  width: 500px;
+  height: 470px;
+  background-color: #ff99c3;
+  margin-bottom: 20px;
+  margin-right: 45px;
+}
+
+h5 {
+  font-family: 'Miniver', cursive;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.infopics {
+  width: 100px;
+  display: inline-block;
+  padding: 30px;
+}
+
+.infotext {
+  font-size: 25px;
+  width: 275px;
+  height: 100px;
+  display: inline-block;
+  float: right;
+  padding: 30px;
+}
+
+#modal {
+  background-color: white;
+  width: 700px;
+  height: 300px;
+  position: fixed;
+  z-index: 100;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#closebutton {
+  display: inline;
+  font-size: 20px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-style: none;
+}
+
+#closebutton:hover {
+  background-color: #e8e8e8;
+}
+
+button:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.forms {
+  text-align: center;
+}
+
+input {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#submit {
+  display: block;
+  font-family: 'Miniver', cursive;
+  font-size: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#congrats {
+  font-family: 'Miniver', cursive;
+  font-size: 30px;
+}
+
+#modaloverlay {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
 }

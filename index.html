@@ -2,12 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Miniver" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title></title>
+    <title>plant of the month club</title>
+    <link rel="shortcut icon" href="images/001-plant.png">
   </head>
   <body>
-
-
-    <script type="text/javascript" src=main.js></script>
+    <div id="mainbod">
+      <div id="modaloverlay"></div>
+      <div id="main">
+        <h1>Plant of the <br> Month Club!</h1>
+      </div>
+      <h3>How it works:</h3>
+      <div class="icons">
+          <div class="planttext">
+            <img id="plant" src="images/001-plant.png" alt="plant">
+            <div class="writing">Sign up for our club and every month we pick out a beautiful plant for you</div>
+          </div>
+          <div class="trucktext">
+            <img id="truck" src="images/007-delivery-truck.png" alt="truck">
+            <div class="writing">We pack up your plant and our delivery truck delivers it right to your door</div>
+          </div>
+          <div class="housetext">
+            <img id="house" src="images/004-building.png" alt="">
+            <div class="writing">Your home looks great with your new plant</div>
+          </div>
+        </div>
+        <h4>Learn more about this month's plant:</h4>
+        <div class= "learn">
+          <div id="info">
+            <h5>Monstera Deliciosa</h5>
+            <img class="infopics" src="images/003-sun.png" alt="sun">
+            <div class="infotext">
+            Place your monstera in a bright spot, but out of direct sun-light.
+            </div>
+            <img class="infopics" src="images/005-watering.png" alt="watering can">
+            <div class="infotext">
+            Water your monstera weekly and allow it to drain completely. Reduce water in the winter months to prevent over watering.
+            </div>
+          </div>
+        <img id="monstera" src="images/monstera.jpg" alt="monstera plant">
+      </div>
+      <div id="modal">
+        <button id="closebutton" type="close" name="button">x</button>
+        <form class="forms" action="index.html" method="post">
+          <h2>Sign up to get your plant today!</h2>
+          <input type="name" name="" value="" placeholder="first name">
+          <input type="text" name="" value="" placeholder="last name">
+          <input type="address" name="" value="" placeholder="address">
+          <input type="email" name="" value="" placeholder="email address">
+          <button id="submit" type="button" name="button">submit</button>
+          <div id="congrats"></div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src=maintwo.js></script>
   </body>
 </html>
